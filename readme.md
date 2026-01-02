@@ -67,13 +67,3 @@ Despite the name "bigram" (which typically refers to pairs of tokens), this mode
 ## Model Size
 
 The model has approximately `vocab_size²` parameters (one embedding per character, with vocab_size output logits for each).
-
-## Educational Purpose
-
-This is a minimal educational implementation that serves as a stepping stone to understanding more complex language models. It demonstrates:
-- Basic language modeling concepts
-- Character-level tokenization
-- Training loops and loss computation
-- Text generation through sampling
-
-For better text generation quality, see the GPT implementation in the parent directory, which adds attention mechanisms and transformer architecture.
